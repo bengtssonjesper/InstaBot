@@ -89,8 +89,6 @@ time.sleep(3)
 
 # Add the accounts that you are following to followingArray
 followingArray = scrollAndFindElements('/html/body/div[5]/div/div/div[2]')
-print("-----LENGTH OF FOLLOWINGARRAY-----")
-print(len(followingArray))
 notFollowingMeArray = []
 meNotFollowingBackArray = []
 
