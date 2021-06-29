@@ -9,7 +9,7 @@ import time
 UN = "USERNAME"
 PW = "PASSWORD"
 
-# Change .Firefox to what browser you will be using
+# Change ".Firefox" to what browser you will be using
 # Change the path to your path of your webdriver
 driver = webdriver.Firefox(executable_path=r'C:\Program Files\geckodriver.exe')
 
